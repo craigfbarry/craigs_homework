@@ -17,11 +17,16 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    text-align: center;
+
 }
+
+
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    
 }
 
 .header h1 .seo {
@@ -66,6 +71,25 @@ p {
     background-size: cover;
     background-position: center;
 }
+.hero h1 {
+    font-size: 5em;
+    padding: 40px 0px 0px 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
+    background: linear-gradient(90deg, #183646, #aec3ce, #183646);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
 
 /* FLOATS */
 
