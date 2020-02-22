@@ -76,8 +76,8 @@ p {
     background-position: center;
 }
 .hero h1 {
-    font-size: 5em;
-    padding: 40px 0px 0px 13%;
+    font-size: 4em;
+    padding: 40px 0px 0px 60px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
     background: linear-gradient(90deg, #183646, #aec3ce, #183646);
     background-repeat: no-repeat;
